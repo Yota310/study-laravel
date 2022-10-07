@@ -18,9 +18,12 @@
                    
                </div>
               
+              <p class="edit">[<a href="/posts/{{$post->id}}/edit">edit</a>]</p>
+              
                </div>
             <div class="footer">
                <a href="/">back</a>
             </div>
+            
         </body>
         </html>
