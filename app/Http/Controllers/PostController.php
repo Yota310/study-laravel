@@ -47,4 +47,8 @@ class PostController extends Controller
         
     }
     
+    public function delete(Post $post){
+        $post->delete();
+        return redirect('/');
+    }
 }
